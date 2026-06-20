@@ -25,11 +25,12 @@ HTTP RPC と WebSocket の両方をチェックし、複数ノードを一括監
 git clone https://github.com/AoiToSouma/xdc-node-health.git
 cd xdc-node-health
 npm install
+cp config.json.sample config.json
 ```
 
 ## 設定
 
-`config.json` を編集して監視するノードを登録します。
+`config.json` を編集して監視するノードを登録します。（`config.json` は `.gitignore` に含まれており、コミットされません）
 
 ```json
 {
