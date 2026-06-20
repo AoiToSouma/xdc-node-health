@@ -1,0 +1,16 @@
+{
+  "name": "xdc-node-health",
+  "version": "1.0.0",
+  "description": "XDC blockchain RPC/WebSocket node health checker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node index.js --once"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

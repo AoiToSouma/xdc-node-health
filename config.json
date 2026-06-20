@@ -1,0 +1,22 @@
+{
+  "checkIntervalSeconds": 60,
+  "wsSubscriptionTimeoutSeconds": 15,
+  "rpcTimeoutMs": 10000,
+  "nodes": [
+    {
+      "name": "XDC Mainnet (xinfin.network)",
+      "rpc": "https://rpc.xinfin.network",
+      "ws": "wss://ws.xinfin.network"
+    },
+    {
+      "name": "XDC Mainnet (xdcrpc.com)",
+      "rpc": "https://rpc1.xdcrpc.com",
+      "ws": "wss://ws.xdcrpc.com"
+    },
+    {
+      "name": "XDC Apothem Testnet",
+      "rpc": "https://rpc.apothem.network",
+      "ws": "wss://ws.apothem.network"
+    }
+  ]
+}
